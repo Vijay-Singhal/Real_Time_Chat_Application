@@ -1,0 +1,19 @@
+{
+  "name": "current-project",
+  "version": "1.0.0",
+  "description": "this is real time chat application",
+  "main": "index.js",
+  "proxy":"http://localhost:5000",
+  "scripts": {
+    "devStart": "nodemon server.js"
+  },
+  "author": "vijay singhal",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "socket.io": "^2.2.0"
+  },
+  "devDependencies": {
+    "nodemon": "^1.19.0"
+  }
+}
